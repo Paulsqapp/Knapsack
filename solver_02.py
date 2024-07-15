@@ -100,7 +100,7 @@ def solve_it(input_data):
 if __name__ == '__main__':
     import sys, time
     print('start')
-    file_location = "D:/discrete opt/knapsack/knapsack/data/ks_4_0" # ks_19_0, ks_4_0, ks_30_0
+    file_location = "path_to_files" # ks_19_0, ks_4_0, ks_30_0
     with open(file_location, 'r') as input_data_file:
             input_data = input_data_file.read()
             print('----final---',solve_it(input_data))
